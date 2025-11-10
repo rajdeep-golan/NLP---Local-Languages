@@ -1,2 +1,2 @@
-# NLP---Local-Languages
+# NLP - Local Languages
 Capstone
