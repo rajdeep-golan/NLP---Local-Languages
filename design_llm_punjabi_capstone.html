@@ -122,12 +122,12 @@ function processText() {
     return;
   }
 
-  // Fake logic for sentiment
+  //  logic for sentiment
   let sentiment = "Neutral";
   if (text.includes("ਖੁਸ਼") || text.includes("ਵਧੀਆ")) sentiment = "Positive";
   if (text.includes("ਬੁਰਾ") || text.includes("ਨਹੀਂ")) sentiment = "Negative";
 
-  // Fake summary: first sentence
+  //  summary: first sentence
   let summary = text.split("।")[0] + "।";
 
   document.getElementById("sentiment").innerText = sentiment;
